@@ -1,1 +1,17 @@
-/* You can add global styles to this file, and also import other style files */
+@import "./styles/bootstrap/css/bootstrap.min.css";
+@import '~font-awesome/css/font-awesome.min.css';
+@import "~jsoneditor/dist/jsoneditor.min.css";
+@import "~@davebaol/angular-formio-editor/styles.css";
+
+.center {
+  margin: auto;
+  width: 75%;
+}
+
+@media (max-width: 1023px){
+  .center {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+}
