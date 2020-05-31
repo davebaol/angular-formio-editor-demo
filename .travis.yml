@@ -10,7 +10,7 @@ install:
 script:
   - ng lint
   - ng test --watch=false --browsers=ChromeHeadless
-  - ng build
+  - ng build --prod
 
 deploy:
   provider: pages
